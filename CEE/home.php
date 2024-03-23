@@ -40,6 +40,7 @@ if(!isset($_SESSION['examineeSession']['examineenakalogin']) == true) header("lo
      
    }
    // Else ang home nga page mo display
+   //it me mayur sontakkie
    else
    {
      include("pages/home.php"); 
@@ -53,5 +54,4 @@ if(!isset($_SESSION['examineeSession']['examineenakalogin']) == true) header("lo
 <?php include("includes/footer.php"); ?>
 
 <?php include("includes/modals.php"); ?>
-
 
